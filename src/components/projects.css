@@ -1,0 +1,33 @@
+.card-div{
+    margin: 40px;
+    
+}
+.cards{
+    padding: 25px;
+    
+}
+.cardbody{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: transform .2s;
+
+}
+.cardbody:hover{
+    transform: scale(1.08);
+
+}
+
+.projects{
+    font-family: "Roboto", sans-serif;
+}
+.projects>h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #E71C23;
+    text-decoration-thickness: 7px ;
+}
+.projects>h1:hover{
+    transition: transform .2s;
+    
+}

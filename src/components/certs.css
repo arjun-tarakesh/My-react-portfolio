@@ -1,0 +1,46 @@
+.certs{
+    margin: 40px;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+  
+    
+}
+
+.certs>h1{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    cursor: default;
+    text-decoration: underline;
+    text-decoration-color: #E71C23;
+    text-decoration-thickness: 10px ;
+
+    
+
+}
+.certs-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.button-one {
+    padding: 10px 25px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #E71C23;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px  rgba(0, 0, 0, 0.473);
+  }
+  
+  .button-one:hover {background-color: #c41a1f}
+  
+  .button-one:active {
+    background-color: #c41a1f;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.473);
+    transform: translateY(4px);
+  }

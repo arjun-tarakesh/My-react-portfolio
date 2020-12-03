@@ -1,0 +1,24 @@
+.skills{
+    color: white;
+    font-family: 'Robot', sans-serif;
+    font-weight: 900;
+    padding: 40px;
+}
+.skill-container{
+    
+    
+    
+}
+
+.skills>h1{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 40px;
+   text-decoration: underline;
+   text-decoration-color: #E71C23;
+   text-decoration-thickness: 10px ;
+}
+.padding{
+    margin-bottom: 20px;
+    
+}

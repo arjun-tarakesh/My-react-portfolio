@@ -1,0 +1,20 @@
+.contact-col{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.contact-div>h1{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  text-decoration-color: #E71C23;
+  text-decoration-thickness: 10px ;
+
+  color: white;
+}
+.contact-row{
+    
+    padding: 100px;
+}
