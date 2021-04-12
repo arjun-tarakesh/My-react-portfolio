@@ -9,6 +9,7 @@ import Certs from './components/certs'
 import Projects from './components/projects'
 import Contact from "./components/contact"
 import Footer from './components/footer';
+import Experience from './components/exp';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
       <About />
       
       <Certs />
+      
       <Projects />
+
       <Skills />
       <Contact />
       <Footer />

@@ -13,7 +13,7 @@ const Footer =() => {
           <Container className="footer-container">
               <Row className="footer-row">
               <Col className="footer-col" sm="6" md="6" lg="5" xl="5">
-                <h1></h1><a href="https://drive.google.com/file/d/1RVYv-FNB6JcIePLOVzK5DNqwH9NKreRo/view?usp=sharing" target="_blank">
+                <h1></h1><a href="https://drive.google.com/file/d/1t8vqklx6sxmA1B5VAlTZ5C0k3VE4DI60/view?usp=sharing" target="_blank">
                 <button class="button-footer">View Resume</button></a>
                 
                 

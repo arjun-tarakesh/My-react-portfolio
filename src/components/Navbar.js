@@ -63,7 +63,7 @@ const NavBar = (props) => {
                   smooth={true}
                   offset={-70}
                   duration={900} 
-                > <NavLink className="nav-item-text" style={{color:"white"}}href="">Certtificates</NavLink></Link>
+                > <NavLink className="nav-item-text" style={{color:"white"}}href="">Achievements</NavLink></Link>
 
 
              

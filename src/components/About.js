@@ -18,14 +18,14 @@ const about =()=> {
                 </Col>
                 
                 <Col xs="auto" className="col2-about">
-                <h1>A short summary </h1>
+                <h1>A short summary... </h1>
                 <ul className="about-list">
                     <li>Computer science engineering student</li>
+                    <li>Web Developer</li>
                     <li>Front-end Developer</li>
                     <li>Cloud enthusiast</li>
                     <li>Designer</li>
-                    <li>Active learner</li>
-                    <li>Technology enthusiast</li>
+                    
                 </ul>
                               
                                
