@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import {BiMenuAltRight} from 'react-icons/bi'
 import { Link, animateScroll as scroll } from "react-scroll"; //smooth scroll
 import {
   Collapse,
@@ -24,7 +24,7 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar  dark  expand="md" style={{backgroundColor:"#192A56"}} className="main-nav" fixed="top">
+      <Navbar  dark  expand="md" style={{backgroundColor:"black"}} className="main-nav" fixed="top">
       <Link
               
               activeClass="active"
@@ -35,7 +35,7 @@ const NavBar = (props) => {
               duration={900} 
           >
         <NavbarBrand className="brand" href="hero">AT.</NavbarBrand></Link>
-        <NavbarToggler onClick={toggle} className="navbar-toggler"></NavbarToggler>
+        <NavbarToggler onClick={toggle} className="navbar-toggler" ><BiMenuAltRight color="white" /></NavbarToggler>
         
         <Collapse isOpen={isOpen}  navbar>
           <Nav className="navBar" navbar >
@@ -58,12 +58,12 @@ const NavBar = (props) => {
              
               <Link
                   activeClass="active"
-                  to="certs"
+                  to="work"
                   spy={true}
                   smooth={true}
                   offset={-70}
                   duration={900} 
-                > <NavLink className="nav-item-text" style={{color:"white"}}href="">Achievements</NavLink></Link>
+                > <NavLink className="nav-item-text" style={{color:"white"}}href="">Work</NavLink></Link>
 
 
              
@@ -86,12 +86,12 @@ const NavBar = (props) => {
             <NavItem className="nav-item">
             <Link
                   activeClass="active"
-                  to="skills"
+                  to="certs"
                   spy={true}
                   smooth={true}
                   offset={-70}
                   duration={900} 
-                > <NavLink className="nav-item-text" style={{color:"white"}}href="">Skills</NavLink></Link>
+                > <NavLink className="nav-item-text" style={{color:"white"}}href="">Achievements</NavLink></Link>
 
               
             </NavItem>

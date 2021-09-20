@@ -1,3 +1,6 @@
+.contact-div{
+  margin-top: 30px;
+}
 .contact-col{
     display: flex;
     justify-content: center;
@@ -6,15 +9,27 @@
     
 }
 .contact-div>h1{
-  display: flex;
-  justify-content: center;
-  text-decoration: underline;
-  text-decoration-color: #E71C23;
-  text-decoration-thickness: 10px ;
+  
+  color: #64FFDA;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration:underline ;
+    text-decoration-color: #031530 ;
+    font-family: 'Roboto',sans-serif;
+    
+}
+.contact-div>h1:hover{
+  cursor: default;
+  text-decoration: none;
+  
+  text-shadow: 5px 5px #08295c;
+  transition: all ease-in-out 0.2s;
 
-  color: white;
+  
+
 }
 .contact-row{
     
-    padding: 100px;
+   margin: 30px;
 }

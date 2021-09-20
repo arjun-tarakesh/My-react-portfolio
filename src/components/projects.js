@@ -6,8 +6,8 @@ import Card from './cards'
 
 const  projects =() => {
     return (
-        <div className="projects" >
-        <h1>Projects</h1>
+        <div>
+        
         <div id="projects">
         
             <Card />

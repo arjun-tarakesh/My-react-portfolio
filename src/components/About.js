@@ -11,22 +11,29 @@ const about =()=> {
             <Jumbotron className="main-about" >
             <Container className="About-sec" id="hsec" >
             <Row className="rows-about" id="about" >
-                <Col xs="auto" className="col1-about">
-                    <Tilt>
-                    < img src="https://i.pinimg.com/originals/a5/f0/5f/a5f05f2b8326abd955c787d446e30366.gif" className="image-about" />
-                    </Tilt>
-                </Col>
-                
-                <Col xs="auto" className="col2-about">
-                <h1>A short summary... </h1>
-                <ul className="about-list">
-                    <li>Computer science engineering student</li>
-                    <li>Web Developer</li>
-                    <li>Front-end Developer</li>
-                    <li>Cloud enthusiast</li>
-                    <li>Designer</li>
+                <Col  className="col1-about">
                     
-                </ul>
+                   
+                <h1>A short summary... </h1>
+               <p>
+               Hello! My name is Arjun T. I am a computer science engineering student. I am currently in my fourth 
+               year of study in my bachelor's degree. Advancing and updgrading myself with the latest technologies is what
+               I love the most. My interest for computer science started when I was a kid. I've always been excited about the tech world. I've had the privelage
+               of learning web development and working at a startup as an Internet. My main focus these days is on learning more about
+               Cybersecurity and Cloud Technologies. 
+               </p>
+               <h6>Skills</h6>
+               <ul>
+                   <li>C++</li>
+                   <li>JavaScript and React JS</li>
+                   <li>Python</li>
+                   
+                   <li>AWS</li>
+                   <li>Computer Networks</li>
+                   <li>HTML & CSS</li>
+                   <li>UI/UX design</li>
+               </ul>
+                
                               
                                
                     

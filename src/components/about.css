@@ -1,63 +1,36 @@
 .rows-about{
-    background-color:  white;
+    background-color:  #000000;
     border-radius: 20px;
     padding: 40px;
     margin-top: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
 }
 .main-about{
     width: 100%;
-    background-color: #111b33;
+    background-color: #020C1B;
     
 }
-.image-about{
-    height: 500px;
-    width: 370px;
-    border-radius: 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    
+.col1{
+    padding: 30px;
 }
-
-.col1-about{
-    margin: auto;
+.col1-about>h6{
+    color: #64FFDA;
 }
-.col2-about{
-    
-    margin: auto;
-    padding: 50px;
-}.col2-about>h1{
+.col1-about>h1{
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    border-bottom: 9px solid #E71C23;
-    padding-bottom: 9px;
+    color: #64FFDA;
+  
+}.col1-about>p{
+    font-family:  sans-serif;
+    color: rgb(199, 196, 196);
+  
+}.col1-about>ul{
+    font-family:  monospace;
+    color: rgb(199, 196, 196);
   
 }
-.col2-about>h1:hover{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    background-color: #E71C23;
-    color: azure;
-    cursor: default;
-    transition: 0.5s ease-out;
-}
-.about-list{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    list-style-type: none;
-    
-}
-.about-list>li::before{
-    
-    content: "->  ";
-    
-    color: #E71C23;
-    
-}
-.about-list>li:hover{
-  background-color: black;
-  color: white;
-  transition: all 0.3s ease-out;
-  cursor: default;
-}
+
+
 @media only screen and (max-width: 500px){
     .image-about{
         height: 200px;

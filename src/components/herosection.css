@@ -5,7 +5,6 @@ background-image: linear-gradient(315deg, #f89b9e 0%, #c9d9ff 74%);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }w
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -18,35 +17,65 @@ background-image: linear-gradient(315deg, #f89b9e 0%, #c9d9ff 74%);
 	}
 } */
 .main{
+    background-color: #e5e5f7;
+    /* opacity: 0.8; */
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #020C1B 10px ), repeating-linear-gradient( #020811, #020C1B );
+    /* z-index: -1; */
     width: 100%;
-    background-color: #111b33;
+    cursor: default;
+    background-color: #020C1B;
     margin-top: 52px;
     
 }
-.hero-sec{
+.more{
+    background: none;
+    color: #64FFDA;
+    border: #64FFDA solid 1px;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    font-family:  monospace;
+    font-size: 20px;
+}
+
+.col2>h1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.col2>h2{
+    font-size: 70px;
+    color: #64FFDA;
+    
+}
+/* .hero-sec{
     
 }
 .col2:hover{
     
    cursor: default;
-}
+} */
 .image{
-    
+    margin: auto;
     height: 500px;
     width: 500px;
-    border-radius: 500px;
+    
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .col2{
-margin: auto;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+    padding: 10px;
+    margin: auto;
+    
+
 }
 .col1{
     margin: auto;
 }
 .typical{
-    background-color: #192A56;
+    
     font-family: 'Source Code Pro', monospace;
-    box-shadow: 5px 5px  rgb(20, 20, 20);
+    text-align: left;
     font-size: 24px;
     color: white;
 }
@@ -54,11 +83,60 @@ margin: auto;
     color: white;
     
     border-radius: 13px;
-}@media only screen and (max-width: 600px){
+}
+@media only screen and (max-width: 992px){
+    
+    .morediv{
+        display: flex;
+        justify-content: center;
+    } 
+    .himgdiv{
+        display: flex;
+        justify-content: center;
+    }
+    .col2>h1{
+        
+        text-align: center;
+    }
+    .col2>h2{
+        
+        text-align: center;
+        
+    }
+    .typical{
+        text-align: center;
+    }
+    .more{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
     .image{
         height: 300px;
         width: 300px;
         margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .col2>h1{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    .col2>h2{
+        font-size: 70px;
+        color: #64FFDA;
+        text-align: center;
+        
+    }
+    .more{
+        text-align: center;
+    }
+    .typical{
+        
+        text-align: center;
     }
 }
 @media only screen and (max-width: 500px){
@@ -66,21 +144,55 @@ margin: auto;
         height: 300px;
         width: 300px;
         margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .col2>h1{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    .col2>h2{
+        font-size: 70px;
+        color: #64FFDA;
+        text-align: center;
+        
+    }
+    .typical{
+       
+        text-align: center;
+    }
+}@media only screen and (max-width: 1100px){
+    .image{
+        height: 400px;
+        width: 400px;
+        
     }
 }
-@media only screen and (max-width: 280px){
+@media only screen and (max-width: 472px){
     .image{
         height: 200px;
         width: 200px;
     }
+    .col2>h1{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    .col2>h2{
+        font-size: 70px;
+        color: #64FFDA;
+        text-align: center;
+        
+    }
     .typical{
-        background-color: #192A56;
-        color: white;
-        font-size: small;
+        font-size: 20px;
+        text-align: center;
     }
 }
 
-.image {  
+/* .image {  
     animation-name: floating;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -92,4 +204,4 @@ margin: auto;
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, -0px); }    
-}
+} */

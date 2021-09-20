@@ -7,13 +7,23 @@
 }
 
 .certs>h1{
-    display: flex;
-    justify-content: center;
-    margin: 40px;
+    color: #64FFDA;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration:underline ;
+    text-decoration-color: #031530 ;
+    font-family: 'Roboto',sans-serif;
+    
+
+    
+
+}.certs>h1:hover{
     cursor: default;
-    text-decoration: underline;
-    text-decoration-color: #E71C23;
-    text-decoration-thickness: 10px ;
+    text-decoration: none;
+    
+    text-shadow: 5px 5px #08295c;
+    transition: all ease-in-out 0.2s;
 
     
 

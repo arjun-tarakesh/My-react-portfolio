@@ -1,8 +1,8 @@
 import React from 'react'
 import "./herosection.css"
+import { Link, animateScroll as scroll } from "react-scroll"; //smooth scroll
 
-import Tilt from "react-tilt"
-
+import {AiFillLinkedin,AiFillGithub, AiOutlineInstagram} from 'react-icons/ai';
 import Typical from "react-typical";
 import {Container, Row, Col,Jumbotron,Button} from "react-bootstrap"
 import dp1 from "../dp.png"
@@ -15,27 +15,43 @@ const Example = (props) => {
             <Jumbotron className="main">
             <Container className="heroSec" id="hsec" >
             <Row className="rows"  >
-                <Col xs="auto" className="col1">
-                <Tilt >
-                    < img src={dp1} className="image" />
-                </Tilt> 
-                </Col>
+               
                 
-                <Col xs="auto" className="col2">
-                <h1 className="display-3" style={{fontWeight:"600"}} >Hello World!</h1>
-                                <h2 >This is Arjun ,</h2>
-                                <Tilt>
+                <Col xs="auto" sm="12" md="12" lg="6" xl="6" className="col2">
+                <h1  >Hello World!</h1>
+                                <h2 >This is Arjun,</h2>
+                                
                                 <h3 className="typical"> 
                                     <Typical
-                                    steps={['A ', 1000, 'A student.', 2000,'A Developer.', 2000,
-                                    'A Cloud enthusiast.', 2000,'A Technology enthusiast.', 2000,'A Designer.', 2000,'A Gamer ;)', 2000,]}
+                                    steps={['A ', 1000, 'A student 🎓', 2000,'A Developer 💻', 2000,
+                                    'A Computer security enthusiast 🔐', 2000,'A Cloud enthusiast ☁️', 2000,'A Designer 🎨', 2000,'A Gamer 🎮', 2000,]}
                                     loop={Infinity}
                                     wrapper="p"
                                   /> 
                                 
                                 </h3>
-                                </Tilt>
+                                <div className="morediv">
+                                <Link
+              
+                                  activeClass="active"
+                                  to="about"
+                                  spy={true}
+                                  smooth={true}
+                                  offset={-70}
+                                  duration={900} 
+                              > <button className="more">More</button>
+                              
+                               
+                            </Link> 
+                            </div>
+                            
+                                
                     
+                </Col>
+                <Col xs="auto" sm="12" md="12" lg="6" xl="6" className="col1">
+                <div className="himgdiv">
+                    < img src={dp1} className="image" />
+                </div>
                 </Col>
                 </Row>
                

@@ -10,6 +10,7 @@ import Projects from './components/projects'
 import Contact from "./components/contact"
 import Footer from './components/footer';
 import Experience from './components/exp';
+import Work from './components/work';
 
 function App() {
   return (
@@ -18,11 +19,14 @@ function App() {
       <Herosection />
       <About />
       
+      <Work />
+      <Projects />
+      {/* <Skills /> */}
       <Certs />
       
-      <Projects />
+      
 
-      <Skills />
+      
       <Contact />
       <Footer />
       

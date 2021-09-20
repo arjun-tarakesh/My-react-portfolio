@@ -1,39 +1,148 @@
+
+.cardrow{
+     margin: 30px;
+     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.438);
+    
+    border-radius: 30px;
+    
+
+
+}
+.button-proj{
+    background: none;
+    color: #64FFDA;
+    border: #64FFDA solid 1px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-family:  monospace;
+    font-size: 20px;
+}
 .card-div{
     margin: 40px;
     text-align: center;
     
-}
-.cards{
-    padding: 25px;
+    border-radius: 20px;
     
 }
+.projtxt>h1{
+    padding-top: 10px;
+    text-align: left;
+    color: #64FFDA;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+}.projtxt>p{
+    padding-top: 10px;
+    text-align: left;
+    color: white;
+    font-family: monospace;
+    
+}
+.projarea{
+    
+    display: flex;
+    justify-content: first baseline;
+    
+}
+.moreprog{
+    color: white;
+    background-color: #08295c;
+}
+
+.projtitle{
+    
+    color: #64FFDA;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration:underline ;
+    text-decoration-color: #031530 ;
+    font-family: 'Roboto',sans-serif;
+    
+    
+}.projtitle:hover{
+    cursor: default;
+    text-decoration: none;
+    
+    text-shadow: 5px 5px #08295c;
+    transition: all ease-in-out 0.2s;
+
+    
+    
+    
+}
+.cards>h6{
+    color: #64FFDA;
+    font-family: monospace;
+    font-weight: bold;
+    
+}
+
+.project-img{
+    border-radius: 20px;
+    transform:
+    rotateX(51deg)
+    rotateZ(43deg);
+  transform-style: preserve-3d;
+  border-radius: 32px;
+  box-shadow:
+    1px 1px 0 1px #64FFDA,
+    -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+    28px 28px 28px 0 rgba(34, 33, 81, 0.25);
+  transition:
+    .4s ease-in-out transform,
+    .4s ease-in-out box-shadow;
+}
+.project-img:hover{
+    transform:
+      translate3d(0px, -16px, 0px)
+      rotateX(51deg)
+      rotateZ(43deg);
+    box-shadow:
+      1px 1px 0 1px #64FFDA,
+      -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+      54px 54px 28px -10px rgba(34, 33, 81, 0.15);
+}
+.project {
+    
+    border-radius: 20px;
+    margin: 20px;
+    }
+  
 .Button{
  margin-top: auto;   
 }
-.cardbody{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-    transition: transform .2s;
-    border-radius: 10px;
-    height: 100%;
 
-}
 .cardbody:hover{
     transform: scale(1.08);
 
 }
 
-.projects{
+.project{
     font-family: "Roboto", sans-serif;
 }
-.projects>h1{
-    display: flex;
-    justify-content: center;
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: #E71C23;
-    text-decoration-thickness: 7px ;
-}
-.projects>h1:hover{
-    transition: transform .2s;
-    
-}
+
+@media only screen and (max-width: 550px) {
+    .cardrow{
+        padding: 2px;
+    }
+    .project-img{
+        height: 120px;
+        width: 120px;
+    }
+    .projtxt>h1{
+        padding-top: 10px;
+        text-align: left;
+        color: #64FFDA;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 20px;
+    }.projtxt>p{
+        padding-top: 10px;
+        text-align: left;
+        color: white;
+        font-family: monospace;
+        
+    }
+  }

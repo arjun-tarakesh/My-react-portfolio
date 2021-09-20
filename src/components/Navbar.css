@@ -8,9 +8,17 @@
     margin-left: auto;
 }
 .brand{
+    color: #64FFDA !important;
     margin-left: 10px;
     font-weight: 600;
     font-size: 30px;
+}
+.brand:hover{
+    color: #64FFDA !important;
+    
+    transition: all ease-in-out 0.3s;
+    
+    text-shadow: 3px 3px #07493a ;
 }
 .nav-item{
     
@@ -19,11 +27,22 @@
     margin: none;
     
 }
-.nav-item:hover{
-    border-bottom: 3px solid white;
-    margin-bottom: -15px;
-    transition:  ease-in-out;
-    cursor: default;
+.navbar-dark .navbar-toggler {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-dark .navbar-toggler:active {
+    outline: none;
+box-shadow: none;
+}
+.nav-item-text:hover{
+    
+ 
+    color: #64FFDA !important;
+    
+    transition: all ease-in-out 0.3s;
+    
+    text-shadow: 3px 3px #07493a ;
     
 }
 .nav-item-text{

@@ -9,29 +9,30 @@ import { Nav, NavItem, NavLink } from 'reactstrap';
 const Example = (props) => {
   return (
     <div className="contact-div" id="contact">
-      <h1>Get in touch</h1>
+      <h1>Get in touch ☕</h1>
+      
      <Container>
        <Row style={{color:"white"}} className="contact-row" >
         <Col className="contact-col" sm="6" md="6" lg="3" xl="3">
-          <NavLink href="https://www.linkedin.com/in/arjun-tarakesh/" target="_blank" style={{color:"white"}}>
+          <NavLink href="https://www.linkedin.com/in/arjun-tarakesh/" target="_blank" style={{color:"#64FFDA"}}>
           <AiFillLinkedin size="70"value={{color:"white",}}style={{cursor:"pointer"}}/></NavLink>
           
 
           </Col>
           <Col className="contact-col" sm="6" md="6" lg="3" xl="3">
-          <NavLink href="https://github.com/arjun-tarakesh" target="_blank" style={{color:"white"}}>
+          <NavLink href="https://github.com/arjun-tarakesh" target="_blank" style={{color:"#64FFDA"}}>
           <AiFillGithub size="70"value={{color:"white",}}style={{cursor:"pointer"}}/></NavLink>
           
 
           </Col>
           <Col className="contact-col" sm="6" md="6" lg="3" xl="3">
-          <NavLink href="mailto: arjuntarakesh@gmail.com" target="_blank" style={{color:"white"}}>
+          <NavLink href="mailto: arjuntarakesh@gmail.com" target="_blank" style={{color:"#64FFDA"}}>
           <SiGmail size="70"value={{color:"white",}}style={{cursor:"pointer"}}/></NavLink>
           
 
           </Col>
           <Col className="contact-col" sm="6" md="6" lg="3" xl="3">
-          <NavLink href="https://www.instagram.com/arjun_tarakesh/" target="_blank" style={{color:"white"}}>
+          <NavLink href="https://www.instagram.com/not_arjun_/" target="_blank" style={{color:"#64FFDA"}}>
           <AiOutlineInstagram size="70"value={{color:"white",}}style={{cursor:"pointer"}}/></NavLink>
           
 

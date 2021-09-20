@@ -136,11 +136,11 @@ const CarouselPage = () => {
       </MDBCarouselInner>
     </MDBCarousel>
     </MDBContainer>
-    <div className="certs-button">
+    {/* <div className="certs-button">
     <a href="https://www.linkedin.com/in/arjun-tarakesh/" target="_blank"><button class="button-one" >View Credentials</button></a>
-    </div>
+    </div>*/}
     
-    </div>
+    </div> 
   );
 }
 

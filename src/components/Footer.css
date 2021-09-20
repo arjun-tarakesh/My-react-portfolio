@@ -1,5 +1,6 @@
 .footer-div{
-    background-color:  #0c1220;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #020C1B 10px ), repeating-linear-gradient( #020811, #020C1B );
+    /* z-index: -1; */
     font-family: "Roboto", sans-serif;
     
 }
@@ -26,23 +27,21 @@
     margin-top: 30px;
 }
 .button-footer {
-    padding: 10px 25px;
+    background: none;
+    color: #64FFDA;
+    border: #64FFDA solid 1px;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-family:  monospace;
     font-size: 20px;
-    text-align: center;
-    cursor: pointer;
-    outline: none;
-    color: #fff;
-    background-color: #E71C23;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px  rgba(0, 0, 0, 0.473);
   }
   
-  .button-footer:hover {background-color: #c41a1f}
+  .button-footer:hover {background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #020C1B 10px ), repeating-linear-gradient( #020811, #020C1B );
+    /* z-index: -1; */
+transition: all ease-in-out 0.4s;
+box-shadow: 5px 5px #64FFDA;}
   
   .button-footer:active {
-    background-color: #c41a1f;
-    box-shadow: 0 5px rgba(0, 0, 0, 0.473);
-    transform: translateY(4px);
-    border: none;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #020C1B 10px ), repeating-linear-gradient( #020811, #020C1B );
+    /* z-index: -1; */
   }
